@@ -31,25 +31,25 @@ namespace Calculadora
             {
                 case 1:
                     {
-                        resultado = Adicao(numero1, numero2);
+                        resultado = Adicao(num1, num2);
                         break;
                     }
 
                 case 2:
                     {
-                        resultado = Subtracao(numero1, numero2);
+                        resultado = Subtracao(num1, num2);
                         break;
                     }
 
                 case 3:
                     {
-                        resultado = Multiplicacao(numero1, numero2);
+                        resultado = Multiplicacao(num1, num2);
                         break;
                     }
 
                 case 4:
                     {
-                        resultado = Divisao(numero1, numero2);
+                        resultado = Divisao(num1, num2);
                         break;
                     }
 
@@ -62,25 +62,25 @@ namespace Calculadora
 
 
 
-        public static int Adicao(int numero1, int numero2);
+        public static int Adicao(int numero1, int numero2)
         {
             int resultado = numero1 + numero2;
             return resultado;
         }
 
-        public static int Subtracao(int numero1, int numero2);
+        public static int Subtracao(int numero1, int numero2)
         {
             int resultado = numero1 - numero2;
             return resultado;
         }
 
-        public static int Multiplicacao(int numero1, int numero2);
+        public static int Multiplicacao(int numero1, int numero2)
         {
             int resultado = numero1 * numero2;
             return resultado;
         }
 
-        public static int Divisao(int numero1, int numero2);
+        public static int Divisao(int numero1, int numero2)
         {
             int resultado = numero1 / numero2;
             return resultado;
